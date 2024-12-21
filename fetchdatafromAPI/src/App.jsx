@@ -16,7 +16,7 @@ const App = () => {
     <div className="h-[1000px] p-12 w-full bg-slate-700">
       <div>
         <button onClick={fetchData} className="px-6 py-3 rounded bg-slate-900 text-white">
-          Get data
+          Get data-
         </button>
         <div className="h-auto w-full mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {images.map((image) => (
